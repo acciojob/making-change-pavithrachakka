@@ -8,7 +8,7 @@ const makeChange = (c) => {
 	let n=Math.floor(c/5);
 	c=c%5;
 	let p=c;
-	return {"q"=q,"d"=d,"n"=n,"p"=p};
+	return {"q":q,"d":d,"n":n,"p":p};
 };
 
 // Do not the change the code below
